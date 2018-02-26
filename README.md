@@ -3,7 +3,7 @@
 ## Who we are:
 
 **Advisor:** [Professor Thorsten Joachims](http://www.cs.cornell.edu/people/tj/)  
-**Team Leads:** [Kenta Takatsu](https://github.com/Kenta426) (CS 2018)
+**Team Leads:** [Kenta Takatsu](https://github.com/Kenta426) (CS '18)
 
 ## Team objectives:
 
@@ -14,10 +14,10 @@
 * [On the Use of K-Competitive Networks for Writing Style Transfer](https://github.com/CornellDataScience/NLP_Research-FA17/blob/master/dl_style_transfer/submission/k-competitive-networks.pdf)
 
 ## Members (SP2018):
-* Yuji Akimoto
-* Brandon Kates
-* Xuwen Shen
-* Travis Yang
+* [Yuji Akimoto](https://github.com/yujiakimoto)(CS '18)
+* [Brandon Kates](https://github.com/BrandonKates)(BTRY '19)
+* [Xuwen Shen](https://github.com/Xuwen001)(STAT '18)
+* [Travis Yang](https://github.com/xinzheyang)(CS '20)
 * Chetan Valivela
 * Zhao Shen
 * Arnav Ghosh
