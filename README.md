@@ -17,7 +17,7 @@
 * [Yuji Akimoto](https://github.com/yujiakimoto) (CS '19)
 * [Brandon Kates](https://github.com/BrandonKates) (BTRY '19)
 * [Xuwen Shen](https://github.com/Xuwen001) (STAT '18)
-* [Travis Yang](https://github.com/xinzheyang) (CS '20)
+* [Xinzhe Yang](https://github.com/xinzheyang) (CS '20)
 * Chetan Valivela
 * Zhao Shen
 * Arnav Ghosh
