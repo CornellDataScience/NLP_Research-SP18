@@ -12,8 +12,6 @@ In the long term, we view this as an extremely useful tool
 for Cornell students that automatically answers easier questions
 asked on Piazza. In the short term, we will focus on creating
 a system to answer questions from the 
-[SQuAD](https://rajpurkar.github.io/SQuAD-explorer/) dataset.
-  
+[SQuAD](https://rajpurkar.github.io/SQuAD-explorer/) dataset. 
   
 ![Sample QA](https://tensorflowkorea.files.wordpress.com/2016/06/squad-explore.png)
-
