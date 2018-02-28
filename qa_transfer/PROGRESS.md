@@ -1,6 +1,6 @@
 # Progress Report 
 
-02/28:
+02/28 (Yuji):
 * Reading: [SQuAD](https://arxiv.org/pdf/1606.05250.pdf)
 * Created `process.py`
   * Organize raw JSON data into tabular format. `data/raw_questions.csv`
