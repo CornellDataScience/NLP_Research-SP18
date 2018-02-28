@@ -19,6 +19,6 @@
 * [Arnav Ghosh](https://github.com/garnav) (CS '19)
 * [Brandon Kates](https://github.com/BrandonKates) (BTRY '19)
 * [Zhao Shen](https://github.com/yuzhshen) (CS '19)
-* [Chetan Valivela](https://github.com/svelivela) (CS '19)
+* [Chetan Valivela](https://github.com/Srivelivela) (CS '19)
 * [Xinzhe Yang](https://github.com/xinzheyang) (CS '20)
 * [Katie Yang](https://github.com/yangkt) (CS '21)
