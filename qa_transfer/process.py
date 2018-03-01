@@ -7,6 +7,7 @@ import json
 import pandas as pd
 import sys
 
+
 def process(data, save=True):
     all_questions = []
     for topic in data:
@@ -24,6 +25,7 @@ def process(data, save=True):
         dataframe.to_csv('data/raw_questions.csv', index=False)
     return dataframe
 
+
 def main(args):
     with open(args.file, 'r') as file:
         data = json.load(file)['data']
@@ -32,9 +34,9 @@ def main(args):
 
 def parse_args(argv):
     parser = argparse.ArgumentParser()
-    parser.add_argument('file', type=str, default='data/train-v1.1.json',
-                        help='path to SQuAD training data JSON file')
+    parser.add_argument('file', type=str, default='data/train-v1.1.json', help='path to SQuAD training data JSON file')
     return parser.parse_args(argv)
+
 
 if __name__ == '__main__':
     main(parse_args(sys.argv[1:]))
