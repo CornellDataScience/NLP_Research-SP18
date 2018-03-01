@@ -8,6 +8,7 @@
   the article title, paragraph number, question, answer, and
   answer pointer. None of the text has been vectorized.
   * Sample usage: `python process.py data/train-v1.1.json`
+
 02/28 (Kenta):
 * Downloaded pre-trained glove into the server
 * Created `glove.py`
