@@ -37,7 +37,7 @@ def tokenize(docs):
     parsed = []
     # TODO: parallelize for loop
     for i, doc in enumerate(docs):
-        parsed.append(nlp(doc))
+        parsed.append(nlp(str(doc)))
         if (i + 1) % 100 == 0:
             print('Processed {} answers'.format(i + 1))
     t1 = time.time() - t0
