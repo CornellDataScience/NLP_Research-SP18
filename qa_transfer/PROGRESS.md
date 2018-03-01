@@ -20,3 +20,14 @@
     model = Glove()
     model.vectorize('hello')
   ```
+
+03/01 (Yuji):
+* Added `tokenize()` in `process.py`
+  * Tokenize all answers using spaCy. This splits all answers into 
+  individual words (with intelligent constraints such as U.S.A. should 
+  not be split into three words), and also does POS tagging, lemmatization,
+  dependency tree construction, etc. 
+  See [documentation](https://spacy.io/usage/spacy-101) for details.
+  * Notes:
+    * Tokenizing process should be parallelized (but isn't yet)
+    * Resulting file is somewhat large (approx. 500MB)
