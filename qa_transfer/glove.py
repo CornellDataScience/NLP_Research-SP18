@@ -8,7 +8,7 @@ https://stackoverflow.com/questions/37793118/load-pretrained-glove-vectors-in-py
 """
 
 class Glove(object):
-    def __init__(pre_trained = True):
+    def __init__(self, pre_trained = True):
         self.GLOVE_PATH = os.getcwd() + '/data/glove.6B.zip'
         self.GLOVE_FILE = 'glove.6B.300d.txt' # can change it to glove.6B.50d.txt, glove.6B.100d.txt, glove.6B.200d.txt
         if load_file:
