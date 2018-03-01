@@ -14,8 +14,9 @@
 * Created `glove.py`
   * Load pre-trained model.
   * Return vectorized word if it exists in the vocabulary, `None` otherwise.
-  * Sample usage: `python
+  * Sample usage: 
+  ```python
     from glove import Glove
     model = Glove()
     model.vectorize('hello')
-  `
+  ```
