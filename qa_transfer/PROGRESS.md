@@ -10,7 +10,7 @@
   * Sample usage: `python process.py data/train-v1.1.json`
 
 02/28 (Kenta):
-* Downloaded pre-trained glove into the server
+* Downloaded pre-trained glove to the team server
 * Created `glove.py`
   * Load pre-trained model.
   * Return vectorized word if it exists in the vocabulary, `None` otherwise.
