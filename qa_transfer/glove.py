@@ -13,7 +13,7 @@ class Glove(object):
         self.GLOVE_FILE = 'glove.6B.300d.txt' # can change it to glove.6B.50d.txt, glove.6B.100d.txt, glove.6B.200d.txt
         if pre_trained:
             glove = zipfile.ZipFile(self.GLOVE_PATH, 'r')
-            words = pd.read_table(self.glove.open(GLOVE_FILE), sep=" ", index_col=0, header=None, quoting=csv.QUOTE_NONE)
+            words = pd.read_table(glove.open(self.GLOVE_FILE), sep=" ", index_col=0, header=None, quoting=csv.QUOTE_NONE)
             self.model = words.as_matrix()
         else:
             self.model = None
