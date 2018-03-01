@@ -18,7 +18,7 @@ class Glove(object):
         else:
             self.model = None
 
-        if self.model:
+        if self.model is not None:
             self.dict = {word: i for i, word in enumerate(words.index)}
         else:
             self.dict = {}
