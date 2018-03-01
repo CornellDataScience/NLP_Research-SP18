@@ -31,3 +31,6 @@
   * Notes:
     * Tokenizing process should be parallelized (but isn't yet)
     * Resulting file is somewhat large (approx. 500MB)
+* Some analysis of what most answers are like 
+  [here](https://github.com/CornellDataScience/NLP_Research-SP18/tree/master/qa_transfer/analysis/answer_distribution.ipynb).
+  
