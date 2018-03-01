@@ -5,7 +5,11 @@ Pre-process training data.
 import argparse
 import json
 import pandas as pd
+import pickle
+import os
+import spacy
 import sys
+import time
 
 
 def process(data, save=True):
@@ -26,10 +30,31 @@ def process(data, save=True):
     return dataframe
 
 
+def tokenize(docs):
+    """Tokenize a list of documents using spacy."""
+    nlp = spacy.load('en')
+    t0 = time.time()
+    parsed = []
+    # TODO: parallelize for loop
+    for i, doc in enumerate(docs):
+        parsed.append(nlp(doc))
+        if (i + 1) % 100 == 0:
+            print('Processed {} answers'.format(i + 1))
+    t1 = time.time() - t0
+    print('\nProcessed {} answers in {:.2f}s'.format(len(docs), t1))
+
+    with open('data/parsed_answers.pkl', 'wb') as f:
+        pickle.dump(parsed, f)
+
+
 def main(args):
     with open(args.file, 'r') as file:
         data = json.load(file)['data']
-    dataframe = process(data, save=True)
+    if ['raw_questions.csv'] in os.listdir('data'):
+        dataframe = process(data, save=True)
+    else:
+        dataframe = pd.read_csv('data/raw_questions.csv')
+    tokenize(dataframe.loc[:, 'Answer'].values)
 
 
 def parse_args(argv):
