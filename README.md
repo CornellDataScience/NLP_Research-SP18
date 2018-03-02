@@ -14,11 +14,11 @@
 * [On the Use of K-Competitive Networks for Writing Style Transfer](https://github.com/CornellDataScience/NLP_Research-FA17/blob/master/dl_style_transfer/submission/k-competitive-networks.pdf)
 
 ## Members (SP2018):
-* [Yuji Akimoto](https://github.com/yujiakimoto) (CS '19)
-* [Brandon Kates](https://github.com/BrandonKates) (BTRY '19)
 * [Xuwen Shen](https://github.com/Xuwen001) (STAT '18)
+* [Yuji Akimoto](https://github.com/yujiakimoto) (CS '19)
+* [Arnav Ghosh](https://github.com/garnav) (CS '19)
+* [Brandon Kates](https://github.com/BrandonKates) (BTRY '19)
+* [Zhao Shen](https://github.com/yuzhshen) (CS '19)
+* [Chetan Velivela](https://github.com/Srivelivela) (CS '19)
 * [Xinzhe Yang](https://github.com/xinzheyang) (CS '20)
-* Chetan Valivela
-* Zhao Shen
-* Arnav Ghosh
-* Katie Yang
+* [Katie Yang](https://github.com/yangkt) (CS '21)
