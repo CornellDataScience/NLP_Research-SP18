@@ -2,6 +2,7 @@ import os
 import zipfile
 import pandas as pd
 import csv
+import gensim
 
 
 class Glove(object):
@@ -42,8 +43,31 @@ class Glove(object):
         else:
             return None
 
+class Pretrained_Word2Vec(object):
+    """Pretrained word2vec vectorizer
+    Attributes:
+        WORD2VEC_PATH  : path to the zipped file
+        model          : gensim.models.keyedvectors.KeyedVectors
+    """
+    def __init__(self):
+        self.WORD2VEC_PATH = os.getcwd() + '/data/GoogleNews-vectors-negative300.bin'
+        self.model = gensim.models.KeyedVectors.load_word2vec_format(self.WORD2VEC_PATH , binary=True)
+
+    def vectorize(self, word):
+        """return vectorized word. If the word does not exist, return None
+        Args:
+            word: string to vectorize
+        Returns:
+            array with the length of 300, None otherwise.
+        """
+        if word in self.model.wv.vocab.keys():
+            return self.model[word]
+        else:
+            return None
+
 
 if __name__ == '__main__':
-    model = Glove()
+    # model = Glove()
+    model = Pretrained_Word2Vec()
     print (model.vectorize('person'))
     print (model.vectorize('CDS'))
