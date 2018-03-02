@@ -14,7 +14,7 @@
 * Created `glove.py`
   * Load pre-trained model.
   * Return vectorized word if it exists in the vocabulary, `None` otherwise.
-  * Sample usage: 
+  * Sample usage:
   ```python
     from glove import Glove
     model = Glove()
@@ -23,14 +23,25 @@
 
 03/01 (Yuji):
 * Added `tokenize()` in `process.py`
-  * Tokenize all answers using spaCy. This splits all answers into 
-  individual words (with intelligent constraints such as U.S.A. should 
+  * Tokenize all answers using spaCy. This splits all answers into
+  individual words (with intelligent constraints such as U.S.A. should
   not be split into three words), and also does POS tagging, lemmatization,
-  dependency tree construction, etc. 
+  dependency tree construction, etc.
   See [documentation](https://spacy.io/usage/spacy-101) for details.
   * Notes:
     * Tokenizing process should be parallelized (but isn't yet)
     * Resulting file is somewhat large (approx. 500MB)
-* Some analysis of what most answers are like 
+* Some analysis of what most answers are like
   [here](https://github.com/CornellDataScience/NLP_Research-SP18/tree/master/qa_transfer/analysis/answer_distribution.ipynb).
-  
+
+03/02 (Kenta):
+* Downloaded pre-trained Word2Vec to the team server
+* Renamed `glove.py` to `pretrained_word_models.py`
+  * Load pre-trained model.
+  * Return vectorized word if it exists in the vocabulary, `None` otherwise.
+  * Sample usage:
+  ```python
+    from pretrained_word_models import Pretrained_Word2Vec
+    model = Pretrained_Word2Vec()
+    model.vectorize('hello')
+  ```
