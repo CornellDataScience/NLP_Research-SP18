@@ -8,7 +8,7 @@
 ## Team objectives:
 
 ## Current Projects:
-* [Transfer Learning for QA System](https://github.com/CornellDataScience/research-qa_transfer)
+* [QuACC: Question Answering for Cornell Courses](https://github.com/CornellDataScience/QuACC)
 * [Duplicate Question Detection](https://github.com/CornellDataScience/research-duplicate_questions)
 * [Sentiment Analysis](https://github.com/CornellDataScience/research-sentiment_analysis)
 
