@@ -7,6 +7,11 @@
 
 ## Team objectives:
 
+## Current Projects:
+* [Transfer Learning for QA System](https://github.com/CornellDataScience/research-qa_transfer)
+* [Duplicate Question Detection](https://github.com/CornellDataScience/research-duplicate_questions)
+* [Sentiment Analysis](https://github.com/CornellDataScience/research-sentiment_analysis)
+
 ## Previous Projects:
 * [Extracting Rating Dimensions from Hidden Topics in Text Reviews](https://github.com/CornellDataScience/NLP_Research-FA17/blob/master/latent_variable/submission/extracting-rating-dimensions.pdf)
 * [Topic Modeling as a Trend-Aware Performance Metric](https://github.com/CornellDataScience/NLP_Research-FA17/blob/master/topic_over_time/submission/CDS_final_submission.pdf)
