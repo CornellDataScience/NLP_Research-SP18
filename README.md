@@ -9,7 +9,7 @@
 
 ## Current Projects:
 * [QuACC: Question Answering for Cornell Courses](https://github.com/CornellDataScience/QuACC)
-* [DuQi](https://github.com/CornellDataScience/DuQi)
+* [DuQI: Duplicate Question Identification](https://github.com/CornellDataScience/DuQI)
 * [Sentiment Analysis](https://github.com/CornellDataScience/research-sentiment_analysis)
 
 ## Previous Projects:
