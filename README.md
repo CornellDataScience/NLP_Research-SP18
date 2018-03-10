@@ -10,7 +10,7 @@
 ## Current Projects:
 * [QuACC: Question Answering for Cornell Courses](https://github.com/CornellDataScience/QuACC)
 * [DuQI: Duplicate Question Identification](https://github.com/CornellDataScience/DuQI)
-* [SWMR](https://github.com/CornellDataScience/SWMR)
+* [SWMR: Sentiment Analysis with Moview Reviews](https://github.com/CornellDataScience/SWMR)
 
 ## Previous Projects:
 * [Extracting Rating Dimensions from Hidden Topics in Text Reviews](https://github.com/CornellDataScience/NLP_Research-FA17/blob/master/latent_variable/submission/extracting-rating-dimensions.pdf)
