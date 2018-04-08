@@ -1,5 +1,4 @@
-<img src="./cover/logo.png" style="width: 400px; display: block; margin: 50px auto;"/>
-
+![cover](./cover/cover.png)
 ## Who we are:
 NLP Research at Cornell Data Science works on developing cutting-edge machine learning methods for natural language processing. Our objective is to provide insights and discoveries to the NLP community through scientific research.
 
