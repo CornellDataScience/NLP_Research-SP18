@@ -1,11 +1,10 @@
-# NLP Research
+<img src="./cover/logo.png" style="width: 400px; display: block; margin: 50px auto;"/>
 
 ## Who we are:
 
 **Advisor:** [Professor Thorsten Joachims](http://www.cs.cornell.edu/people/tj/)  
 **Team Leads:** [Kenta Takatsu](https://github.com/Kenta426) (CS '19)
 
-## Team objectives:
 
 ## Current Projects:
 * [Transfer Learning for QA System](https://github.com/CornellDataScience/research-qa_transfer)
