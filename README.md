@@ -1,4 +1,7 @@
-![cover](./cover/cover.png)
+<p align="center">
+  <img src="./cover/cover.png" width="80%">
+</p>
+
 ## Who we are:
 NLP Research at Cornell Data Science works on developing cutting-edge machine learning methods for natural language processing. Our objective is to provide insights and discoveries to the NLP community through scientific research.
 
