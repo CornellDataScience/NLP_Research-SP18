@@ -1,10 +1,10 @@
 <img src="./cover/logo.png" style="width: 400px; display: block; margin: 50px auto;"/>
 
 ## Who we are:
+NLP Research at Cornell Data Science works on developing cutting-edge machine learning methods for natural language processing. Our objective is to provide insights and discoveries to the NLP community through scientific research.
 
 **Advisor:** [Professor Thorsten Joachims](http://www.cs.cornell.edu/people/tj/)  
 **Team Leads:** [Kenta Takatsu](https://github.com/Kenta426) (CS '19)
-
 
 ## Current Projects:
 * [QuACC: Question Answering for Cornell Courses](https://github.com/CornellDataScience/QuACC)
